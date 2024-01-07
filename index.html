@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f366d3d5dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+ <div id="header">
+    <div class="container">
+        
+        <nav>
+            <ul id="sidemenu">
+                <li><p><i class="fa fa-github" aria-hidden="true"></i></p><a href=""</li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hey, <br>I'm <Span>Debangi</Span> Panda</h1>
+        </div>
+    </div>
+ </div> 
+ <!-- ---------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Debangi Panda and I am an undergradute student pursuing B Tech in Computer Science Engineering form Gandhi Institute of excellent technocrats, Bhubaneswar, Odisha.
+                     I find myself innovative and creative with keen sense of designing and development. I am skilled in frontend web development.
+                     In addition to my love for technology and design, I am also interested in education, science, art and music. 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>HTML is the standard markup language for documents designed to be displayed in a web browser.</li>
+                        <li><span>CSS</span><br>CSS is the language we use to style an HTML document. I am skilled in designing a website.</li>
+                        <li><span>Javascript</span><br>JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. I am an intermediate in ES7.<br></li>
+                        <li><span>Java</span><br>Java is a popular programming language. Java is used to develop mobile apps, web apps, desktop apps, games and much more. I have a good knowlwdge on Basic Java</li>
+                        <li><span>C programming</span><br>C is a general-purpose programming language. I am proficient in C.</li>
+                        <li><span>React JS</span><br>React is a javascript library for web and native UIs. I am good in basics and continuing to explore more deeply.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>I have been a react intern in a startup company Sammegh Technologies, Bangalore.There I have contributed in designing an LMS website and manual testing of the website.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech, Computer Science</span><br>Gandhi Institute Of Excellent Technocrats (GIET), Bhubaneswar
+                              || 2021 - 2025
+                              || CGPA: 8.89/10
+                            </li>
+                        <li><span>Senior Secondary (XII)</span><br>Adyant Higher Secondary School, Bhubaneswar
+                            || (CHSE board)
+                            || Year of completion: 2020
+                           || Percentage: 73.40%</li>
+                        <li><span>Secondary (X)</span><br>Saheed Laxman Nayak Public School, Umerkote
+                            || (ICSE board)
+                            || Year of completion: 2018
+                            || Percentage: 84.50%
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Designing</h2>
+                <p>I am good in designing blueprints of posters, webpages and apps using Canva.</p>
+                    <a href="https://www.bing.com/ck/a?!&&p=dd9a4058893459f8JmltdHM9MTcwMjA4MDAwMCZpZ3VpZD0zM2ZiYTM5NS0yMmM5LTY0NWUtM2Q1My1iMTNjMjM1MjY1N2YmaW5zaWQ9NTIyMQ&ptn=3&ver=2&hsh=3&fclid=33fba395-22c9-645e-3d53-b13c2352657f&psq=canva&u=a1aHR0cHM6Ly93d3cuY2FudmEuY29tLw&ntb=1">Learn more</a>
+            </div>
+            <div>
+                <h2>Web Development</h2>
+                <p>I develop multi-page websites using HTML CSS and Javascript</p>
+                    <a href="https://www.bing.com/ck/a?!&&p=b6edf330b358758aJmltdHM9MTcwMjA4MDAwMCZpZ3VpZD0zM2ZiYTM5NS0yMmM5LTY0NWUtM2Q1My1iMTNjMjM1MjY1N2YmaW5zaWQ9NTI4Mg&ptn=3&ver=2&hsh=3&fclid=33fba395-22c9-645e-3d53-b13c2352657f&psq=web+development&u=a1aHR0cHM6Ly93d3cuZ2Vla3Nmb3JnZWVrcy5vcmcvd2ViLWRldmVsb3BtZW50Lw&ntb=1">Learn more</a>
+            </div>
+            <div>
+                <h2>React App</h2>
+                <p>Using React which is a popular JS library, I make user interfaces, including mobil applications</p>
+                    <a href="https://www.bing.com/ck/a?!&&p=68984ad164445768JmltdHM9MTcwMjA4MDAwMCZpZ3VpZD0zM2ZiYTM5NS0yMmM5LTY0NWUtM2Q1My1iMTNjMjM1MjY1N2YmaW5zaWQ9NTQ5OQ&ptn=3&ver=2&hsh=3&fclid=33fba395-22c9-645e-3d53-b13c2352657f&psq=react+app+development&u=a1aHR0cHM6Ly9jcmVhdGUtcmVhY3QtYXBwLmRldi9kb2NzL2dldHRpbmctc3RhcnRlZC8&ntb=1">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------Portfolio-------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Work1.webp">
+                <div class="layer">
+                    <h3>To-do list website</h3>
+                    <p>It is a website for keeping track on planning and executing daily works using JS</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work2.jpg">
+                <div class="layer">
+                    <h3>Calculator App</h3>
+                    <p>It is a react app for doing general mathematical calculations.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Work3.webp">
+                <div class="layer">
+                   <h3>Shoe-store</h3>
+                   <p>It is an e-commerce website made using HTML, CSS, JS</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------Contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>debangipanda@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7008613899</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100095310590640"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/debangi_panda"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://instagram.com/_nameisisha_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/debangi-panda-3a8410210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/DebangiPanda_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello!!</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by DEBANGI PANDA| <i class="fa-regular fa-copyright"></i> All rights reserved.</p>
+    </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
+
